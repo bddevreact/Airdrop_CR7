@@ -1,0 +1,27 @@
+# CR7 Token Bot - Environment Variables Template
+# Copy this file to .env and fill in your actual values
+# Keep .env file secure and never share it publicly
+
+# Telegram Configuration
+TELEGRAM_BOT_TOKEN=7570326283:AAE1Eg_zDJTVy8og1mRq7ADlGUVjCoXtSgY
+TELEGRAM_GROUP_ID=@testgroupbd420
+
+# Solana Configuration
+SOLANA_RPC=https://api.mainnet-beta.solana.com
+TOKEN_MINT=9FwBttHVkmTGECS8oveN26RTQYS4pjbyKf4K3C1jJZ7o
+
+# Wallet Configuration (PRIVATE KEY - KEEP SECURE!)
+WALLET_PRIVATE_KEY=12,34,56,78,90,12,34,56,78,90,12,34,56,78,90,12,34,56,78,90,12,34,56,78,90,12,34,56,78,90,12,34,56,78,90,12,34,56,78,90,12,34,56,78,90,12,34,56,78,90,12,34,56,78,90,12,34,56,78,90,12,34,56,78
+
+# Token Distribution Settings
+TOKENS_PER_SOL=7000
+MINIMUM_BUY_SOL=0.2
+DISTRIBUTION_RATIO=1.0
+MIN_DISTRIBUTION=1400
+MAX_DISTRIBUTION=1000000
+AIRDROP_AMOUNT=1000
+
+# Buy Button and Presale
+BUY_BUTTON_LINK=https://raydium.io/swap/?inputMint=sol&outputMint=9FwBttHVkmTGECS8oveN26RTQYS4pjbyKf4K3C1jJZ7o
+PRESALE_END_DATE=2025-09-06 23:59:59
+PRESALE_TIMEZONE=UTC

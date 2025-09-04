@@ -1,0 +1,40 @@
+2025-09-05 01:13:47,659 - INFO - Configuration loaded successfully
+2025-09-05 01:13:47,660 - ERROR - Failed to start real-time monitoring: You must pass the token you received from https://t.me/Botfather!
+2025-09-05 01:15:23,190 - INFO - Configuration loaded successfully
+2025-09-05 01:15:23,190 - INFO - Loaded TELEGRAM_BOT_TOKEN from environment variables
+2025-09-05 01:15:23,191 - INFO - Loaded TELEGRAM_GROUP_ID from environment variables
+2025-09-05 01:15:23,191 - INFO - Loaded SOLANA_RPC from environment variables
+2025-09-05 01:15:23,191 - INFO - Loaded TOKEN_MINT from environment variables
+2025-09-05 01:15:23,191 - INFO - Loaded WALLET_PRIVATE_KEY from environment variables
+2025-09-05 01:15:23,192 - INFO - Loaded TOKENS_PER_SOL from environment variables
+2025-09-05 01:15:23,194 - INFO - Loaded MINIMUM_BUY_SOL from environment variables
+2025-09-05 01:15:23,194 - INFO - Loaded DISTRIBUTION_RATIO from environment variables
+2025-09-05 01:15:23,194 - INFO - Loaded MIN_DISTRIBUTION from environment variables
+2025-09-05 01:15:23,194 - INFO - Loaded MAX_DISTRIBUTION from environment variables
+2025-09-05 01:15:23,194 - INFO - Loaded AIRDROP_AMOUNT from environment variables
+2025-09-05 01:15:23,195 - INFO - Loaded BUY_BUTTON_LINK from environment variables
+2025-09-05 01:15:23,195 - INFO - Loaded PRESALE_END_DATE from environment variables
+2025-09-05 01:15:23,195 - INFO - Loaded PRESALE_TIMEZONE from environment variables
+2025-09-05 01:15:24,145 - ERROR - Failed to setup admin wallet: type object 'solders.keypair.Keypair' has no attribute 'from_secret_key'
+2025-09-05 01:15:24,145 - INFO - Real Monitoring Bot initialized successfully
+2025-09-05 01:15:24,145 - INFO - Token Mint: 9FwBttHVkmTGECS8oveN26RTQYS4pjbyKf4K3C1jJZ7o
+2025-09-05 01:15:24,145 - INFO - Monitoring Active: True
+2025-09-05 01:15:24,146 - INFO - Check Interval: 60 seconds
+2025-09-05 01:15:24,146 - INFO - Token Distribution: 1 SOL = 7000 CR7 tokens
+2025-09-05 01:15:24,146 - INFO - Minimum Buy: 0.2 SOL
+2025-09-05 01:15:24,147 - INFO - Distribution Ratio: 100.0%
+2025-09-05 01:15:24,147 - INFO - Admin Wallet: Not configured
+2025-09-05 01:15:24,147 - INFO - Airdrop Amount: 1000 tokens
+2025-09-05 01:15:24,148 - INFO - Starting Real-Time Monitoring Bot
+2025-09-05 01:15:25,010 - INFO - Telegram message with image sent successfully
+2025-09-05 01:15:27,192 - ERROR - Failed to send Telegram message: Message caption is too long
+2025-09-05 01:15:27,193 - INFO - Buy guide sent to group
+2025-09-05 01:15:27,193 - INFO - Checking for new real-time transactions...
+2025-09-05 01:15:29,114 - INFO - SOL price fetched: $203.55
+2025-09-05 01:15:29,114 - INFO - Token amount calculated: 2800.0 (pre: 1400.0, post: 4200.0)
+2025-09-05 01:15:29,115 - INFO - REAL BUY DETECTED: 7.9996e-05 SOL from DrgxvHQb9DzgBG5YkP8FyeFAbJp2M54XTzuubt3QfDZP, received 2800.0 tokens
+2025-09-05 01:15:29,115 - WARNING - Buy amount 7.9996e-05 SOL is below minimum 0.2 SOL
+2025-09-05 01:15:29,115 - INFO - FIRST-TIME USER AIRDROP: 1000 tokens to DrgxvHQb9DzgBG5YkP8FyeFAbJp2M54XTzuubt3QfDZP
+2025-09-05 01:15:29,482 - INFO - Telegram message with image sent successfully
+2025-09-05 01:15:29,483 - INFO - Real-time buy alert sent: 7.9996e-05 SOL from Drgx...fDZP, 0 tokens distributed, 1000 airdrop
+2025-09-05 01:15:29,483 - INFO - Processed latest transaction: 3SHBpuof...
