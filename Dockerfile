@@ -31,11 +31,11 @@ RUN pip install --upgrade pip \
 # Copy application code
 COPY --chown=app:app . .
 
+# Create logs directory before switching to non-root user
+RUN mkdir -p /app/logs && chown -R app:app /app/logs
+
 # Switch to non-root user
 USER app
-
-# Create logs directory
-RUN mkdir -p /app/logs
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
