@@ -1,11 +1,20 @@
 [phases.setup]
-nixPkgs = ["python3", "pip"]
+nixPkgs = ["python3", "pip", "curl"]
 
 [phases.install]
-cmds = ["pip install --upgrade pip", "pip install -r requirements.txt"]
+cmds = [
+    "pip install --upgrade pip",
+    "pip install -r requirements.txt",
+    "mkdir -p logs"
+]
 
 [start]
-cmd = "python main.py"
+cmd = "python main_simple.py"
 
 [variables]
 PYTHON_VERSION = "3.11"
+PYTHONDONTWRITEBYTECODE = "1"
+PYTHONUNBUFFERED = "1"
+
+[providers]
+python = "3.11"
