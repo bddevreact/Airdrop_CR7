@@ -9,7 +9,7 @@ cmds = [
 ]
 
 [start]
-cmd = "python main_production.py"
+cmd = "python main.py"
 
 [variables]
 PYTHON_VERSION = "3.11"
@@ -18,3 +18,4 @@ PYTHONUNBUFFERED = "1"
 
 [providers]
 python = "3.11"
+
